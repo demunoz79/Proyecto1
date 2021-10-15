@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  npj: 
+  numero: 
+  tipo: MyString
+  monto: 
+  fecha: 2021-10-09
+
+two:
+  npj: 
+  numero: 
+  tipo: MyString
+  monto: 
+  fecha: 2021-10-09

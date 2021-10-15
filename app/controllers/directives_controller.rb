@@ -1,0 +1,2 @@
+class DirectivesController < ApplicationController
+end

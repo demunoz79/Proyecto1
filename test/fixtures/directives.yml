@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  npj: 
+  rut: MyString
+  cargo: MyString
+  f_asuncion: 2021-10-09
+  f_salida: 2021-10-09
+
+two:
+  npj: 
+  rut: MyString
+  cargo: MyString
+  f_asuncion: 2021-10-09
+  f_salida: 2021-10-09

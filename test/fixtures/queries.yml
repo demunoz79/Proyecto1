@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rut: MyString
+  email: MyString
+  fecha: 2021-10-09
+  comentario: MyString
+
+two:
+  rut: MyString
+  email: MyString
+  fecha: 2021-10-09
+  comentario: MyString

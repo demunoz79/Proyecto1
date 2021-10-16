@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2021_10_16_125153) do
     t.string "tipo"
     t.string "direccion"
     t.date "fecha_nac"
-    t.string "n_educaciona"
+    t.string "n_educacional"
     t.string "idioma"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

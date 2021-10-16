@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   get "/gentes/show/:id", to:"gentes#show"
   get "/gentes/showall", to:"gentes#showall"
 
+  get "/personas", to:"personas#index"
+  post "/personas", to:"personas#create"
+  get "/personas/show/:id", to:"personas#show"
+  get "/personas/showall", to:"personas#showall"
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   get "/inicio", to:"home#index"

@@ -15,7 +15,7 @@ class PersonasController < ApplicationController
       end
     
       def showall
-        @persona = Persona.all
+        @personas = Persona.all
     
       end
 

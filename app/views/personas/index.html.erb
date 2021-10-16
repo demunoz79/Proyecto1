@@ -1,0 +1,43 @@
+<%= form_with(model: @personas) do |form| %>
+
+<div>
+    <%=form.label :rut %>
+    <%=form.text_field :rut %>
+</div>
+<div>
+    <%=form.label :apellido_pat %>
+    <%=form.text_field :apellido_pat %>
+</div>
+<div>
+    <%=form.label :apellido_mat %>
+    <%=form.text_field :apellido_mat %>
+</div>
+<div>
+    <%=form.label :nombre %>
+    <%=form.text_field :nombre %>
+</div>
+<div>
+    <%=form.label :tipo %>
+    <%=form.text_field :tipo %>
+</div>
+<div>
+    <%=form.label :direccion %>
+    <%=form.text_field :direccion %>
+</div>
+<div>
+    <%=form.label :fecha_nac %>
+    <%=form.text_field :fecha_nac %>
+</div>
+<div>
+    <%=form.label :n_educacional %>
+    <%=form.text_field :n_educacional %>
+</div>
+<div>
+    <%=form.label :idioma %>
+    <%=form.text_field :idioma %>
+</div>
+<div>
+    <%=form.submit %>
+</div>
+
+<%end%>

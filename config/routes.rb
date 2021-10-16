@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   
-  
+  get "/situacions", to:"situacions#index"
+  post "/situacions", to:"situacions#create"
+  get "/situacions/show/:id", to:"situacions#show"
+  get "/situacions/showall", to:"situacions#showall"
+
   get "/gentes", to:"gentes#index"
   post "/gentes", to:"gentes#create"
   get "/gentes/show/:id", to:"gentes#show"

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rut: MyString
+  cond_salud: MyString
+  situa_laboral: MyString
+  fecha_salud: 2021-10-16
+  fecha_laboral: 2021-10-16
+
+two:
+  rut: MyString
+  cond_salud: MyString
+  situa_laboral: MyString
+  fecha_salud: 2021-10-16
+  fecha_laboral: 2021-10-16

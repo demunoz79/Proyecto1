@@ -1,0 +1,36 @@
+<h1>Situacions#index</h1>
+<p>Find me in app/views/situacions/index.html.erb</p>
+
+<%= form_with(model: @situacion) do |form| %>
+
+<div>
+    <%=form.label :rut %>
+    <%=form.text_field :rut %>
+</div>
+
+<div>
+    <%=form.label :cond_salud %>
+    <%=form.text_field :cond_salud %>
+</div>
+
+<div>
+    <%=form.label :situa_laboral %>
+    <%=form.text_field :situa_laboral %>
+</div>
+
+<div>
+    <%=form.label :fecha_salud %>
+    <%=form.text_field :fecha_salud %>
+</div>
+
+<div>
+    <%=form.label :fecha_laboral %>
+    <%=form.text_field :fecha_laboral %>
+</div>
+
+<div>
+    <%=form.submit %>
+</div>
+
+<%end%>
+

@@ -1,0 +1,2 @@
+module SituacionsHelper
+end

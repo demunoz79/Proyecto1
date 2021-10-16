@@ -10,19 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_15_004328) do
-
-  create_table "articles", force: :cascade do |t|
-    t.string "nombre"
-    t.integer "precio"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+ActiveRecord::Schema.define(version: 2021_10_16_125153) do
 
   create_table "gentes", force: :cascade do |t|
     t.string "nombre"
     t.date "fechanac"
     t.integer "compra"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "personas", force: :cascade do |t|
+    t.string "rut"
+    t.string "apellido_pat"
+    t.string "apellido_mat"
+    t.string "nombre"
+    t.string "tipo"
+    t.string "direccion"
+    t.date "fecha_nac"
+    t.string "n_educaciona"
+    t.string "idioma"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
